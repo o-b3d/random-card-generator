@@ -18,18 +18,43 @@ body {
 }
 
 .top-icon {
-    position: absolute;
-    width: auto;
-    height: auto;
+  display: flex;
+  top: 0;
+  left: 0;
+  margin-left: 27px;
+  margin-top: 11px;
+  font-size: 110px;
 }
 
 .generated-number {
-    width: auto;
-    height: auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 130px;
+  margin-left: 177px;
+  margin-top: 90px;
 }
 
-.buttom-icon {
-    position: absolute;
-    width: auto;
-    height: auto;
+.bottom-icon {
+  display: flex;
+  bottom: 0;
+  right: 0;
+  font-size: 110px;
+  margin-left: 355px;
+  margin-top: 70px;
+}
+
+.redHeart {
+  color: red;
+}
+
+.cardButton {
+  width: 50%;
+  height: 50px;
+  font-size: 25px;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
