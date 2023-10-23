@@ -10,14 +10,14 @@ body {
   height: 615px;
   width: 450px;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 50px;
   padding: 10px;
   border: 1px solid;
   border-radius: 10px;
   box-shadow: 2px 5px 12px black;
 }
 
-.top-icon {
+#topSuit {
   display: flex;
   top: 0;
   left: 0;
@@ -34,7 +34,7 @@ body {
   margin-top: 90px;
 }
 
-.bottom-icon {
+#bottomSuit {
   display: flex;
   bottom: 0;
   right: 0;
@@ -43,18 +43,15 @@ body {
   margin-top: 70px;
 }
 
-.redHeart {
-  color: red;
-}
-
 .cardButton {
   width: 50%;
-  height: 50px;
+  height: 55px;
   font-size: 25px;
   border: 1px solid black;
   position: absolute;
-  bottom: 100px;
+  bottom: 85px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  justify-content: center;
 }
